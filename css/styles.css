@@ -1,0 +1,115 @@
+/* Cole Ditner 8832371*/
+
+
+
+
+html{
+    
+    font-style : normal;
+    font-size : 20px;
+    font-weight: lighter;
+    line-height: 1.1em;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: normal;
+}
+
+body{
+    width: 100%;
+    max-width: 1300px;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+header, footer{
+    text-align: center;
+
+    border: 0.33rem solid #d30000;
+
+    background-image: linear-gradient(to right, rgb(0, 0, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 0, 0))
+}
+
+.main-section{
+    text-align: center;
+    padding:1rem;
+    background-color: hsla(189, 100%, 50%, 0.925);
+}
+
+#bio{
+    text-align: left;
+}
+
+.main-section img{
+    width: 45%;
+    height: 45%;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.main-section-figure{
+    width: 45%;
+    height: 45%;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin:auto;
+}
+
+#relative-path-image{
+    border-radius: 3rem;
+    border: 0.20rem solid rgb(0, 0, 0);
+    background-color: hsla(123, 100%, 15%, 0.925);
+}
+
+#relative-quote{
+    color: rgb(0, 0, 0);
+}
+
+#absolute-path-image{
+    border-radius: 3rem;
+    border: 0.20rem solid rgb(0, 25, 248);
+    background-color: hsla(0, 0%, 100%, 0.747);
+}
+
+#absolute-quote{
+    color: rgb(0, 25, 248);
+}
+
+#quote{
+    padding: 1rem;
+    border: 0.20rem solid #0000ff;
+    box-shadow: 0.33rem 0.5rem 0.1rem lightgray;
+}
+
+video{
+    height: 50%;
+    width: 50%;
+    padding: 1rem;
+}
+
+video{
+    border-radius: 3rem;
+    border: 0.20rem solid rgb(98, 0, 255);
+    border: 0.22rem solid #0000ff;
+}
+
+h1, h2{
+
+    font-variant: small-caps;
+    color: blueviolet;
+}
+
+figcaption{
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 25px;
+}
+
+q{
+    font-style: italic;
+    font-family: cursive; 
+    font-size: 25px;
+}
+
+footer p{
+    font-size: 12px
+}
