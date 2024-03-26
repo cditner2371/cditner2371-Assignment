@@ -2,7 +2,6 @@
 
 
 
-
 html{
     
     font-style : normal;
@@ -18,7 +17,9 @@ body{
     max-width: 1300px;
     padding: 1rem;
     margin: 0 auto;
+    
 }
+
 
 header, footer{
     text-align: center;
@@ -28,14 +29,107 @@ header, footer{
     background-image: linear-gradient(to right, rgb(0, 0, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 0, 0))
 }
 
+nav{
+    background-color: rgb(103, 184, 255);
+    padding : .25rem .25rem;
+    margin : .25rem;
+}
+
+nav ul{
+    padding: 0 1rem 1.8rem 1rem;
+    list-style-type: none;
+    margin: 0.3rem;
+    text-align: center;
+}
+
+nav ul li a{
+    background-color: lightgreen;
+    border:0.15rem solid lightslategray ;
+    
+    text-decoration: none;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-style: italic;
+    color: blue;
+    display: block;
+}
+
+nav ul li a:hover{
+    background-color: red;
+    color: lightgreen;
+    border-color: black;
+}
+
+#Home{
+    float: left;
+    width: 50%;
+}
+
+#Contact{
+    float: right;
+    width: 50%;
+}
+
 .main-section{
     text-align: center;
     padding:1rem;
+   
+}
+
+
+
+#mainbody{
+    float: left;
+    width: 70%;
     background-color: hsla(189, 100%, 50%, 0.925);
+}
+
+aside{
+    background-color: hsla(189, 100%, 50%, 0.925);
+    padding-bottom: 78.2%;
+}
+
+#asidebody{
+    background-color: hsla(189, 100%, 50%, 0.925);
+    float: right;
+    width: 30%;
+}
+
+.aside-headings{
+    font-variant: small-caps;
+    color: blueviolet;
+    text-align: center;
+    
+}
+
+table, th, td{
+    border: 1px solid black;
+    font-weight: normal;
+    font-style:normal;
+    text-align: center;
+    color: rgb(58, 58, 58);
+    
+}
+
+.External-links, li, a{
+    line-height: 1.5em;
+    list-style-type: none;
+    text-decoration: none;
+    color: darkblue;
+}
+
+.External-links, li, a:hover{
+    color: red;
+}
+
+footer{
+    clear: both;
 }
 
 #bio{
     text-align: left;
+    float: left;
+    width: 45%;
 }
 
 .main-section img{
@@ -52,32 +146,93 @@ header, footer{
     margin-top: 1rem;
     margin-bottom: 1rem;
     margin:auto;
-}
-
-#relative-path-image{
-    border-radius: 3rem;
-    border: 0.20rem solid rgb(0, 0, 0);
-    background-color: hsla(123, 100%, 15%, 0.925);
-}
-
-#relative-quote{
-    color: rgb(0, 0, 0);
+    
 }
 
 #absolute-path-image{
     border-radius: 3rem;
     border: 0.20rem solid rgb(0, 25, 248);
     background-color: hsla(0, 0%, 100%, 0.747);
+   
 }
 
 #absolute-quote{
     color: rgb(0, 25, 248);
+    
+}
+
+#absolute-path-image, #absolute-quote{
+    float: right;
+    width: 30.5%;
+}
+
+
+/*#relative-path-image{
+    border-radius: 3rem;
+    border: 0.20rem solid rgb(0, 0, 0);
+    background-color: hsla(123, 100%, 15%, 0.925);
+    
+    
+}
+
+#relative-quote{
+    color: rgb(0, 0, 0);
+    
+}
+*/
+
+#form-aside{
+    background-color: hsla(189, 100%, 50%, 0.925);
+    float: right;
+    width: 30%;
+}
+
+#form-aside{
+    background-color: hsla(189, 100%, 50%, 0.925);
+    padding-bottom: 49.1%;
+}
+
+#form-main{
+    padding: 1rem 16.202rem 1rem 1rem;
+    margin: 0;
+    float:left;
+    background-color: hsla(189, 100%, 50%, 0.925);
+}
+
+label{
+    font-weight: bold;
+    font-variant: small-caps;
+    color: rgb(68, 0, 0);
+    float:left;
+    margin-right: 0.25rem;
+}
+
+input{
+    height: 70%;
+    width: 100%;
+    align-items: center;
+    padding: 1rem;
+    margin: 0.25rem;
+}
+
+#male, #female, #other{
+    float: left;
+}
+
+#submit-button{
+    height: 10%;
+    width: 50%;
 }
 
 #quote{
     padding: 1rem;
     border: 0.20rem solid #0000ff;
     box-shadow: 0.33rem 0.5rem 0.1rem lightgray;
+    
+}
+
+#Quote-title{
+    clear:both;
 }
 
 video{

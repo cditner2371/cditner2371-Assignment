@@ -1,0 +1,154 @@
+<!--Cole Ditner 8832371-->
+
+<!--The type of the document-->
+<!DOCTYPE html>
+
+<!--the identifier that the content of the document is in english.-->
+<html lang = "en">
+<head>
+    <!--Meta tags that define metadata. This one defines the character set to be used.-->
+    <meta charset="UTF-8">
+    <!--This metadata sets the width of the page to fit the device.-->
+    <meta Name="viewport" content="device-width, initial-scale=1.0">
+    <!--Search Engine Optimization tags, which help the page get found on the internet.-->
+    <meta Name="keywords" content="history, napoleon">
+    <!--The description of the website.-->
+    <meta Name="Description" content="A summary of Napoleon Bonaparte's history.">
+
+    <!--The links to the CSS documents.-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!--The title of the web page on the tab bar.-->
+    <title>Napoleon Bonaparte: A brief summary</title>
+</head>
+
+<body>
+    <!--The main section of the page-->
+    <header>
+        <h1 id="Head-title">Napoleon Bonaparte</h1>
+    </header>
+    <nav>
+        <ul>
+            <li id="Home">
+                <a href="index.html">Home</a>
+            </li>
+            
+            <li id="Contact">
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main id="form-main">
+        <h2>Contact</h2>
+        <form name="contact_me_form" id="contactform" method="post" action="contact_me.php" >
+
+            <div>
+                <label for="firstname">First Name:</label>
+                <input type="text" id="firstname" name="UserFirstname" required autofocus placeholder="Enter your First Name">
+            </div>
+
+            <div>
+                <label for="lastname">Last Name:</label>
+                <input type="text" id="Lastname" name="UserLastname" required autofocus placeholder="Enter your Last Name">
+            </div>
+            
+            <div>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male" value="Male" required>
+            </div>
+            
+            <div>
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female" value="Female">
+            </div>
+
+            <div>
+                <label for="other">Other</label>
+                <input type="radio" name="gender" id="other" value="Other">
+            </div>
+
+            <div>
+                <label for="date">What is your Birth Date?</label>
+                <input type="date" name="birthdate" id="birthdate" value="Birthdate"  min="1924-01-01" max="2024-01-01" autofocus required>
+            </div>
+
+            <div>
+                <label for="email">E-mail Address</label>
+                <input type="text" name="email" id="email" placeholder="example123@mail.com" autofocus required>
+            </div>
+
+            <div>
+                <label for="phoneno">Phone No.</label>
+                <input type="text" name="phoneno" id="phoneno" placeholder="111-222-333" autofocus>
+            </div>
+
+            <div>
+                <label for="contacts">Method of Contact</label>
+                <select id="contacts" name="contact" required>
+                    <option>Select...</option>
+                    <option value="1">Text/SMS</option>
+                    <option value="2">E-Mail</option>
+                    <option value="3">Phonecall</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="msgnots">Message/Notes</label>
+                <textarea name="Message/Notes" id="msgnots" rows="5" cols="40" placeholder="Type your message or notes for improvement here..."></textarea>
+            </div>
+
+            <input type="Submit" value="Submit Form" id="submit-button">
+        </form>
+    </main>
+
+    <aside id="form-aside">
+        <h3 class="aside-headings">FAQs</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Data</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Title</td>
+                    <td>Data</td>
+                </tr>
+                <tr>
+                    <td>Title</td>
+                    <td>Data</td>
+                </tr>
+                <tr>
+                    <td>Title</td>
+                    <td>Data</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3 class="aside-headings">External Resources</h3>
+        <ul class="External-links">
+            <li>
+                <a href="https://en.wikipedia.org/wiki/Napoleon">Wikipedia</a>
+            </li>
+            <li>
+                <a href="https://www.britannica.com/biography/Napoleon-I">Britannica</a>
+            </li>
+        </ul>
+    </aside>
+
+    <footer>
+
+
+
+
+
+        <p>&copy;Cole Ditner, 2024</p>
+    </footer>
+
+
+</body>
+
+
+</html>
